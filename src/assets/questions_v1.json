@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does 'ubiquitous' mean?",
+      "options": ["Rare", "Present everywhere", "Ancient", "Mysterious", "Temporary"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What does 'ephemeral' mean?",
+      "options": ["Eternal", "Heavy", "Lasting for a very short time", "Beautiful", "Complex"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "question": "What does 'ambiguous' mean?",
+      "options": ["Clear", "Large", "Open to multiple interpretations", "Scientific", "Friendly"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "question": "What does 'eloquent' mean?",
+      "options": ["Silent", "Fluent and persuasive in speaking", "Confused", "Angry", "Slow"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What does 'meticulous' mean?",
+      "options": ["Careless", "Quick", "Showing great attention to detail", "Lazy", "Dangerous"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "question": "What does 'pragmatic' mean?",
+      "options": ["Impractical", "Dealing with things realistically", "Magical", "Emotional", "Theoretical"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "What does 'ostentatious' mean?",
+      "options": ["Simple", "Hidden", "Designed to impress or attract notice", "Boring", "Natural"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "question": "What does 'resilient' mean?",
+      "options": ["Fragile", "Able to recover quickly from difficulties", "Stubborn", "Weak", "Passive"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "question": "What does 'tenacious' mean?",
+      "options": ["Giving up easily", "Holding firmly to something", "Uncertain", "Gentle", "Flexible"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "What does 'candid' mean?",
+      "options": ["Dishonest", "Truthful and straightforward", "Complicated", "Shy", "Aggressive"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "question": "What does 'verbose' mean?",
+      "options": ["Concise", "Using more words than needed", "Quiet", "Simple", "Precise"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "What does 'altruistic' mean?",
+      "options": ["Selfish", "Selflessly concerned for others", "Wealthy", "Educated", "Powerful"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "question": "What does 'benevolent' mean?",
+      "options": ["Evil", "Well-meaning and kindly", "Strict", "Careless", "Wealthy"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "question": "What does 'capricious' mean?",
+      "options": ["Consistent", "Given to sudden changes of mood", "Calm", "Predictable", "Thoughtful"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What does 'diligent' mean?",
+      "options": ["Lazy", "Showing care and effort", "Careless", "Quick", "Distracted"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "question": "What does 'enigmatic' mean?",
+      "options": ["Obvious", "Clear", "Difficult to understand or interpret", "Simple", "Boring"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 17,
+      "question": "What does 'fastidious' mean?",
+      "options": ["Careless", "Very attentive to detail", "Messy", "Slow", "Relaxed"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "question": "What does 'gregarious' mean?",
+      "options": ["Shy", "Fond of company and sociable", "Quiet", "Angry", "Tired"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "What does 'haughty' mean?",
+      "options": ["Humble", "Arrogantly superior", "Friendly", "Generous", "Weak"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "What does 'indifferent' mean?",
+      "options": ["Passionate", "Having no particular interest", "Excited", "Caring", "Energetic"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "question": "What does 'jubilant' mean?",
+      "options": ["Sad", "Feeling great happiness", "Angry", "Tired", "Confused"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 22,
+      "question": "What does 'loquacious' mean?",
+      "options": ["Silent", "Tending to talk a great deal", "Shy", "Thoughtful", "Brief"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "What does 'magnanimous' mean?",
+      "options": ["Petty", "Generous and forgiving", "Angry", "Small", "Weak"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "What does 'nonchalant' mean?",
+      "options": ["Anxious", "Casually calm and relaxed", "Excited", "Worried", "Aggressive"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "question": "What does 'obsolete' mean?",
+      "options": ["Modern", "No longer in use", "Popular", "New", "Effective"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "question": "What does 'pensive' mean?",
+      "options": ["Joyful", "Engaged in deep thought", "Carefree", "Playful", "Angry"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "question": "What does 'querulous' mean?",
+      "options": ["Happy", "Complaining in a petulant way", "Silent", "Satisfied", "Generous"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 28,
+      "question": "What does 'reticent' mean?",
+      "options": ["Talkative", "Not revealing thoughts readily", "Loud", "Friendly", "Open"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "question": "What does 'sagacious' mean?",
+      "options": ["Foolish", "Having good judgment", "Reckless", "Young", "Weak"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 30,
+      "question": "What does 'taciturn' mean?",
+      "options": ["Talkative", "Reserved in speech", "Loud", "Friendly", "Energetic"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 31,
+      "question": "What does 'unwavering' mean?",
+      "options": ["Uncertain", "Steady and resolute", "Confused", "Weak", "Variable"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 32,
+      "question": "What does 'venerable' mean?",
+      "options": ["Young", "Given great respect due to age", "Disrespected", "New", "Weak"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 33,
+      "question": "What does 'whimsical' mean?",
+      "options": ["Serious", "Playfully quaint or fanciful", "Boring", "Angry", "Logical"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 34,
+      "question": "What does 'zealous' mean?",
+      "options": ["Apathetic", "Having great energy for a cause", "Tired", "Lazy", "Indifferent"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 35,
+      "question": "What does 'arduous' mean?",
+      "options": ["Easy", "Involving great effort", "Simple", "Quick", "Pleasant"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 36,
+      "question": "What does 'austere' mean?",
+      "options": ["Luxurious", "Severe in manner or appearance", "Comfortable", "Friendly", "Colorful"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 37,
+      "question": "What does 'belligerent' mean?",
+      "options": ["Peaceful", "Hostile and aggressive", "Friendly", "Calm", "Gentle"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "question": "What does 'circumspect' mean?",
+      "options": ["Reckless", "Wary and unwilling to take risks", "Bold", "Careless", "Impulsive"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 39,
+      "question": "What does 'clandestine' mean?",
+      "options": ["Public", "Kept secret or done secretively", "Open", "Honest", "Legal"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 40,
+      "question": "What does 'cogent' mean?",
+      "options": ["Weak", "Clear and convincing", "Confusing", "Irrelevant", "Vague"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 41,
+      "question": "What does 'convoluted' mean?",
+      "options": ["Simple", "Extremely complex", "Clear", "Direct", "Easy"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 42,
+      "question": "What does 'deft' mean?",
+      "options": ["Clumsy", "Neatly skillful", "Slow", "Awkward", "Heavy"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 43,
+      "question": "What does 'docile' mean?",
+      "options": ["Aggressive", "Ready to accept control", "Rebellious", "Wild", "Fierce"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 44,
+      "question": "What does 'erudite' mean?",
+      "options": ["Ignorant", "Having great knowledge", "Simple", "Uneducated", "Naive"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 45,
+      "question": "What does 'facetious' mean?",
+      "options": ["Serious", "Treating serious issues with humor", "Sad", "Angry", "Thoughtful"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 46,
+      "question": "What does 'frugal' mean?",
+      "options": ["Wasteful", "Sparing or economical", "Generous", "Expensive", "Luxurious"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 47,
+      "question": "What does 'garrulous' mean?",
+      "options": ["Silent", "Excessively talkative", "Shy", "Brief", "Quiet"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 48,
+      "question": "What does 'impetuous' mean?",
+      "options": ["Cautious", "Acting without thought", "Careful", "Slow", "Deliberate"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 49,
+      "question": "What does 'lucid' mean?",
+      "options": ["Confusing", "Expressed clearly", "Vague", "Complex", "Obscure"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 50,
+      "question": "What does 'stoic' mean?",
+      "options": ["Emotional", "Enduring pain without complaint", "Sensitive", "Dramatic", "Expressive"],
+      "correctAnswer": 1
+    }
+  ]
+}

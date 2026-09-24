@@ -1,0 +1,238 @@
+<div class="quiz-container">
+  <!-- Start Screen -->
+  <div *ngIf="showStartScreen" class="start-screen" @fadeSlide>
+    <div class="start-content">
+      <div class="logo-wrapper">
+        <mat-icon class="quiz-icon">school</mat-icon>
+      </div>
+      <h1 class="start-title">Vocab Master Asaad</h1>
+      <p class="start-subtitle">Test your knowledge with 10 challenging vocabulary questions</p>
+      
+      <!-- Progress Stats -->
+      <div class="progress-stats" *ngIf="progressStats">
+        <div class="progress-card mastered">
+          <div class="progress-icon">
+            <mat-icon>check_circle</mat-icon>
+          </div>
+          <div class="progress-info">
+            <div class="progress-value">{{progressStats.masteredCount}}</div>
+            <div class="progress-label">Mastered</div>
+          </div>
+        </div>
+        <div class="progress-card remaining">
+          <div class="progress-icon">
+            <mat-icon>pending</mat-icon>
+          </div>
+          <div class="progress-info">
+            <div class="progress-value">{{progressStats.remainingCount}}</div>
+            <div class="progress-label">To Learn</div>
+          </div>
+        </div>
+        <div class="progress-card total">
+          <div class="progress-icon">
+            <mat-icon>library_books</mat-icon>
+          </div>
+          <div class="progress-info">
+            <div class="progress-value">{{allQuestions.length}}</div>
+            <div class="progress-label">Total</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mastery-bar" *ngIf="progressStats">
+        <div class="mastery-label">
+          <span>Overall Progress</span>
+          <span class="mastery-percentage">{{progressStats.masteredPercentage}}%</span>
+        </div>
+        <div class="mastery-progress">
+          <div class="mastery-fill" [style.width.%]="progressStats.masteredPercentage"></div>
+        </div>
+      </div>
+
+      <div class="start-details">
+        <div class="detail-item">
+          <mat-icon>quiz</mat-icon>
+          <span>{{availableQuestionsCount >= 10 ? '10' : availableQuestionsCount}} Questions</span>
+        </div>
+        <div class="detail-item">
+          <mat-icon>format_list_numbered</mat-icon>
+          <span>5 Options Each</span>
+        </div>
+        <div class="detail-item">
+          <mat-icon>lightbulb</mat-icon>
+          <span>New & Review</span>
+        </div>
+      </div>
+
+      <div class="info-message" *ngIf="availableQuestionsCount === 0">
+        <mat-icon>celebration</mat-icon>
+        <p>Congratulations! You've mastered all questions. Starting fresh practice round!</p>
+      </div>
+
+      <div class="button-actions">
+        <button mat-raised-button color="primary" class="start-button" (click)="startQuiz()" [disabled]="loading">
+          {{loading ? 'Loading...' : 'Start Quiz'}}
+          <mat-icon>arrow_forward</mat-icon>
+        </button>
+
+        <button mat-raised-button color="primary" class="start-button" (click)="viewHistory()" [disabled]="loading">
+          {{loading ? 'Loading...' : 'View History'}}
+          <mat-icon>history</mat-icon>
+        </button>      
+      </div>
+
+      <button 
+        mat-stroked-button 
+        class="export-button" 
+        (click)="exportIncorrectAnswers()"
+        *ngIf="getIncorrectAnswersCount() > 0">
+        <mat-icon>download</mat-icon>
+        Download Mistakes ({{getIncorrectAnswersCount()}} questions)
+      </button>
+    </div>
+  </div>
+
+  <!-- Quiz Screen -->
+  <div *ngIf="!showStartScreen && !quizCompleted" class="quiz-screen" @fadeSlide>
+    <!-- Progress Bar -->
+    <div class="progress-section">
+      <div class="progress-info">
+        <span class="question-counter">Question {{currentQuestionIndex + 1}} of {{questions.length}}</span>
+        <span class="score-display">Score: {{score}}/{{questions.length}}</span>
+      </div>
+      <mat-progress-bar mode="determinate" [value]="progress" class="progress-bar"></mat-progress-bar>
+    </div>
+
+    <!-- Question Card -->
+    <mat-card class="question-card" @scaleIn>
+      <mat-card-content>
+        <h2 class="question-text">{{currentQuestion.question}}</h2>
+        
+        <div class="options-container" [@listAnimation]="currentQuestion.id">
+          <button 
+            *ngFor="let option of currentQuestion.options; let i = index"
+            mat-stroked-button
+            class="option-button"
+            [class.selected]="selectedOption === i && !answerSubmitted"
+            [class.correct]="answerSubmitted && i === currentQuestion.correctAnswer"
+            [class.incorrect]="answerSubmitted && selectedOption === i && i !== currentQuestion.correctAnswer"
+            [disabled]="answerSubmitted"
+            (click)="selectOption(i)">
+            <!-- <span class="option-letter">{{String.fromCharCode(65 + i)}}</span> -->
+            <span class="option-text">{{option}}</span>
+            <mat-icon *ngIf="answerSubmitted && i === currentQuestion.correctAnswer" class="result-icon">check_circle</mat-icon>
+            <mat-icon *ngIf="answerSubmitted && selectedOption === i && i !== currentQuestion.correctAnswer" class="result-icon">cancel</mat-icon>
+          </button>
+        </div>
+
+        <div class="action-buttons">
+          <button 
+            *ngIf="!answerSubmitted"
+            mat-raised-button 
+            color="primary" 
+            [disabled]="selectedOption === null"
+            (click)="submitAnswer()">
+            Submit Answer
+          </button>
+          <button 
+            *ngIf="answerSubmitted"
+            mat-raised-button 
+            color="accent" 
+            (click)="nextQuestion()">
+            {{currentQuestionIndex < questions.length - 1 ? 'Next Question' : 'View Results'}}
+            <mat-icon>arrow_forward</mat-icon>
+          </button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <!-- Results Screen -->
+  <div *ngIf="quizCompleted" class="results-screen" @fadeSlide>
+    <mat-card class="results-card">
+      <mat-card-content>
+        <div class="results-header">
+          <mat-icon class="trophy-icon" [class.perfect]="getScorePercentage() === 100">
+            {{getScorePercentage() === 100 ? 'emoji_events' : 'assessment'}}
+          </mat-icon>
+          <h1 class="results-title">Quiz Complete!</h1>
+          <p class="results-message">{{getScoreMessage()}}</p>
+        </div>
+
+        <div class="score-summary">
+          <div class="score-circle">
+            <svg viewBox="0 0 200 200">
+              <circle cx="100" cy="100" r="90" class="score-bg"></circle>
+              <circle 
+                cx="100" 
+                cy="100" 
+                r="90" 
+                class="score-fill"
+                [style.stroke-dashoffset]="565.5 - (565.5 * getScorePercentage() / 100)">
+              </circle>
+            </svg>
+            <div class="score-text">
+              <div class="score-number">{{score}}/{{questions.length}}</div>
+              <div class="score-percentage">{{getScorePercentage()}}%</div>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="getIncorrectAnswers().length > 0" class="incorrect-section">
+          <h2 class="section-title">
+            <mat-icon>error_outline</mat-icon>
+            Questions to Review
+          </h2>
+          
+          <mat-accordion class="review-accordion">
+            <mat-expansion-panel *ngFor="let result of getIncorrectAnswers(); let i = index">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  <span class="review-number">{{i + 1}}</span>
+                  <span class="review-question">{{result.question}}</span>
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              
+              <div class="review-content">
+                <div class="answer-item incorrect-answer">
+                  <mat-icon>close</mat-icon>
+                  <div>
+                    <div class="answer-label">Your Answer</div>
+                    <div class="answer-text">{{result.userAnswer}}</div>
+                  </div>
+                </div>
+                <div class="answer-item correct-answer">
+                  <mat-icon>check</mat-icon>
+                  <div>
+                    <div class="answer-label">Correct Answer</div>
+                    <div class="answer-text">{{result.correctAnswer}}</div>
+                  </div>
+                </div>
+              </div>
+            </mat-expansion-panel>
+          </mat-accordion>
+        </div>
+
+        <div *ngIf="getIncorrectAnswers().length === 0" class="perfect-score-message">
+          <mat-icon>stars</mat-icon>
+          <p>You answered all questions correctly! Excellent work!</p>
+        </div>
+
+        <div class="results-actions">
+          <!-- <button mat-stroked-button (click)="exportIncorrectAnswers()" *ngIf="getIncorrectAnswersCount() > 0">
+            <mat-icon>download</mat-icon>
+            Export Review List
+          </button> -->
+          <button mat-raised-button (click)="viewHistory()">
+            <mat-icon>history</mat-icon>
+            View History
+          </button>
+          <button mat-raised-button color="primary" (click)="restartQuiz()">
+            <mat-icon>refresh</mat-icon>
+            Take Another Quiz
+          </button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

@@ -1,0 +1,155 @@
+<div class="history-container" @fadeIn>
+  <div class="history-header">
+    <button mat-icon-button class="back-button" (click)="startNewQuiz()">
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+    <h1 class="history-title">Quiz History</h1>
+  </div>
+
+  <!-- Statistics Cards -->
+  <div class="stats-section" *ngIf="statistics && statistics.totalQuizzes > 0">
+    <mat-card class="stat-card">
+      <div class="stat-content">
+        <mat-icon class="stat-icon">quiz</mat-icon>
+        <div class="stat-info">
+          <div class="stat-value">{{statistics.totalQuizzes}}</div>
+          <div class="stat-label">Total Quizzes</div>
+        </div>
+      </div>
+    </mat-card>
+
+    <mat-card class="stat-card">
+      <div class="stat-content">
+        <mat-icon class="stat-icon">trending_up</mat-icon>
+        <div class="stat-info">
+          <div class="stat-value">{{statistics.averageScore}}%</div>
+          <div class="stat-label">Average Score</div>
+        </div>
+      </div>
+    </mat-card>
+
+    <mat-card class="stat-card">
+      <div class="stat-content">
+        <mat-icon class="stat-icon">stars</mat-icon>
+        <div class="stat-info">
+          <div class="stat-value">{{statistics.highestScore}}%</div>
+          <div class="stat-label">Highest Score</div>
+        </div>
+      </div>
+    </mat-card>
+
+    <mat-card class="stat-card">
+      <div class="stat-content">
+        <mat-icon class="stat-icon">flag</mat-icon>
+        <div class="stat-info">
+          <div class="stat-value">{{statistics.lowestScore}}%</div>
+          <div class="stat-label">Lowest Score</div>
+        </div>
+      </div>
+    </mat-card>
+  </div>
+
+  <!-- Empty State -->
+  <div class="empty-state" *ngIf="quizHistory.length === 0">
+    <mat-icon class="empty-icon">history</mat-icon>
+    <h2>No Quiz History Yet</h2>
+    <p>Take your first quiz to see your results here!</p>
+    <button mat-raised-button color="primary" (click)="startNewQuiz()">
+      <mat-icon>play_arrow</mat-icon>
+      Start Your First Quiz
+    </button>
+  </div>
+
+  <!-- History List -->
+  <div class="history-list" *ngIf="quizHistory.length > 0" [@listAnimation]="quizHistory.length">
+    <div class="list-header">
+      <h2>Previous Tests</h2>
+      <div class="header-actions">
+        <button mat-button  color="primary" (click)="exportIncorrectAnswers($event)"
+          *ngIf="getIncorrectAnswersCount() > 0">
+          <mat-icon>download</mat-icon>
+          Export Review ({{getIncorrectAnswersCount()}})
+        </button>
+        <button mat-button color="accent" (click)="resetProgress($event)">
+          <mat-icon>restart_alt</mat-icon>
+          Reset Progress
+        </button>
+        <button mat-button color="warn" (click)="clearAllHistory($event)">
+          <mat-icon>delete_sweep</mat-icon>
+          Clear All
+        </button>
+      </div>
+    </div>
+
+    <mat-card 
+      *ngFor="let quiz of quizHistory" 
+      class="history-item"
+      (click)="viewSummary(quiz.id)">
+      <mat-card-content>
+        <div class="item-main">
+          <div class="item-date">
+            <mat-icon>calendar_today</mat-icon>
+            <span>{{formatDate(quiz.date)}}</span>
+          </div>
+
+          <div class="item-score" [class]="getScoreClass(quiz.percentage)">
+            <div class="score-circle-small">
+              <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" class="score-bg-small"></circle>
+                <circle 
+                  cx="50" 
+                  cy="50" 
+                  r="45" 
+                  class="score-fill-small"
+                  [style.stroke-dashoffset]="283 - (283 * quiz.percentage / 100)">
+                </circle>
+              </svg>
+              <div class="score-text-small">
+                <span class="percentage">{{quiz.percentage}}%</span>
+              </div>
+            </div>
+            <div class="score-details">
+              <div class="score-fraction">{{quiz.score}}/{{quiz.totalQuestions}}</div>
+              <div class="score-label">Correct</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item-footer">
+          <div class="incorrect-count" *ngIf="quiz.incorrectAnswers.length > 0">
+            <mat-icon>error_outline</mat-icon>
+            <span>{{quiz.incorrectAnswers.length}} incorrect answer{{quiz.incorrectAnswers.length !== 1 ? 's' : ''}}</span>
+          </div>
+          <div class="perfect-badge" *ngIf="quiz.incorrectAnswers.length === 0">
+            <mat-icon>emoji_events</mat-icon>
+            <span>Perfect Score!</span>
+          </div>
+
+          <div class="item-actions">
+            <!-- <button 
+              mat-icon-button 
+              color="warn" 
+              (click)="deleteQuiz(quiz.id, $event)"
+              matTooltip="Delete this result">
+              <mat-icon>delete</mat-icon>
+            </button> -->
+            <button mat-stroked-button (click)="viewSummary(quiz.id)">
+              View Details
+              <mat-icon>arrow_forward</mat-icon>
+            </button>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <!-- Floating Action Button -->
+  <button 
+    mat-fab 
+    color="primary" 
+    class="fab-button"
+    (click)="startNewQuiz()"
+    matTooltip="Start New Quiz">
+    <mat-icon>add</mat-icon>
+  </button>
+</div>
