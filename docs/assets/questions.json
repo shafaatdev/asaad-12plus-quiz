@@ -1,0 +1,1204 @@
+{
+  "questions": [
+  {
+    "id": 1,
+    "question": "Clear, Obvious",
+    "options": ["Obscure", "Apparent", "Hidden", "Confusing", "Vague"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 2,
+    "question": "Express disapproval or criticism",
+    "options": ["Praise", "Rebuke", "Ignore", "Accept", "Admire"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 3,
+    "question": "Praise, Acclaim",
+    "options": ["Criticize", "Commend", "Condemn", "Rebuke", "Blame"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 4,
+    "question": "Not Important",
+    "options": ["Essential", "Inconsequential", "Crucial", "Vital", "Significant"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 5,
+    "question": "Most Important",
+    "options": ["Trivial", "Paramount", "Minor", "Secondary", "Insignificant"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 6,
+    "question": "Evil spirit",
+    "options": ["Angel", "Demonic", "Saint", "Guardian", "Protector"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 7,
+    "question": "Wicked, Evil, Hatefully",
+    "options": ["Kind", "Heinous", "Gentle", "Compassionate", "Benevolent"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 8,
+    "question": "Tight, Firm",
+    "options": ["Loose", "Tenacious", "Slack", "Weak", "Flexible"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 9,
+    "question": "Insect",
+    "options": ["Mammal", "Pest", "Bird", "Fish", "Reptile"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 10,
+    "question": "Lock",
+    "options": ["Open", "Fasten", "Release", "Unlock", "Free"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 11,
+    "question": "Prove to be right",
+    "options": ["Disprove", "Vindicate", "Contradict", "Refute", "Deny"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 12,
+    "question": "Cunning, Dishonest",
+    "options": ["Honest", "Sly", "Trustworthy", "Sincere", "Genuine"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 13,
+    "question": "Knock",
+    "options": ["Caress", "Strike", "Pat", "Touch", "Stroke"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 14,
+    "question": "Tap with finger or a sharp object",
+    "options": ["Smooth", "Poke", "Rub", "Massage", "Press"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 15,
+    "question": "Gentle Nobleman",
+    "options": ["Peasant", "Earl", "Commoner", "Servant", "Slave"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 16,
+    "question": "Break off",
+    "options": ["Continue", "Adjourn", "Proceed", "Resume", "Persist"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 17,
+    "question": "Throw with force",
+    "options": ["Catch", "Hurl", "Hold", "Keep", "Receive"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 18,
+    "question": "Hang or swing loosely",
+    "options": ["Secure", "Dangle", "Fasten", "Fix", "Attach"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 19,
+    "question": "Delay",
+    "options": ["Hasten", "Postponed", "Hurry", "Rush", "Expedite"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 20,
+    "question": "Lose Clothing",
+    "options": ["Dress", "Drape", "Wear", "Don", "Cover"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 21,
+    "question": "Book that has a stiff cover",
+    "options": ["Paperback", "Hardback", "Magazine", "Pamphlet", "Booklet"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 22,
+    "question": "Small area without trees",
+    "options": ["Forest", "Glade", "Woods", "Jungle", "Grove"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 23,
+    "question": "Feel sympathy",
+    "options": ["Mock", "Commiserate", "Ridicule", "Ignore", "Dismiss"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 24,
+    "question": "Prey-on, Exploit, To hurt",
+    "options": ["Protect", "Victimized", "Help", "Support", "Defend"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 25,
+    "question": "Displease",
+    "options": ["Please", "Resentful", "Delight", "Satisfy", "Gratify"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 26,
+    "question": "Careful, Not to harm",
+    "options": ["Careless", "Considerate", "Reckless", "Thoughtless", "Negligent"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 27,
+    "question": "Seal, Shut",
+    "options": ["Open", "Bolt", "Unlock", "Unfasten", "Release"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 28,
+    "question": "Delicate, Dainty, Lovely",
+    "options": ["Coarse", "Ethereal", "Rough", "Crude", "Heavy"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 29,
+    "question": "Extremely unpleasant",
+    "options": ["Pleasant", "Vile", "Delightful", "Enjoyable", "Nice"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 30,
+    "question": "Whirlwind",
+    "options": ["Breeze", "Tornado", "Calm", "Stillness", "Peace"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 31,
+    "question": "Flying aircraft",
+    "options": ["Sailing", "Aviation", "Driving", "Walking", "Swimming"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 32,
+    "question": "Ignore, Avoid",
+    "options": ["Welcome", "Shun", "Embrace", "Accept", "Include"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 33,
+    "question": "Person who teaches dance",
+    "options": ["Student", "Choreographer", "Musician", "Singer", "Painter"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 34,
+    "question": "Optical illusion",
+    "options": ["Reality", "Mirage", "Truth", "Fact", "Certainty"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 35,
+    "question": "Deceptive not clear",
+    "options": ["Clear", "Illusion", "Obvious", "Transparent", "Real"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 36,
+    "question": "Protect with care",
+    "options": ["Neglect", "Cherish", "Abandon", "Discard", "Ignore"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 37,
+    "question": "Dearly loved",
+    "options": ["Hated", "Beloved", "Despised", "Detested", "Loathed"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 38,
+    "question": "As usual",
+    "options": ["Unusual", "Norm", "Abnormal", "Exception", "Rare"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 39,
+    "question": "Tease someone",
+    "options": ["Comfort", "Tantalise", "Soothe", "Reassure", "Support"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 40,
+    "question": "Less sensitive",
+    "options": ["Sensitize", "Desensitize", "Awaken", "Alert", "Arouse"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 41,
+    "question": "Untidy, disorder, disarray",
+    "options": ["Tidy", "Dishevel", "Organize", "Arrange", "Order"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 42,
+    "question": "Brushed, Looking nice",
+    "options": ["Unkempt", "Groom", "Messy", "Disheveled", "Shabby"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 43,
+    "question": "Changing structure",
+    "options": ["Maintain", "Remodel", "Preserve", "Keep", "Sustain"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 44,
+    "question": "Large beer or wine cask",
+    "options": ["Bottle", "Tun", "Glass", "Cup", "Mug"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 45,
+    "question": "Great pleasure, Enjoyment",
+    "options": ["Disgust", "Relish", "Dislike", "Hatred", "Aversion"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 46,
+    "question": "Enjoy with full of taste",
+    "options": ["Reject", "Savour", "Dislike", "Refuse", "Decline"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 47,
+    "question": "Gently calm someone",
+    "options": ["Agitate", "Soothe", "Disturb", "Upset", "Irritate"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 48,
+    "question": "Destructive wave",
+    "options": ["Ripple", "Blast", "Calm", "Stillness", "Peace"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 49,
+    "question": "No longer needed",
+    "options": ["Essential", "Redundant", "Necessary", "Required", "Vital"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 50,
+    "question": "More than enough",
+    "options": ["Insufficient", "Superfluous", "Scarce", "Lacking", "Deficient"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 51,
+    "question": "Harmful evil look",
+    "options": ["Kind", "Harmful", "Gentle", "Benevolent", "Friendly"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 52,
+    "question": "Strong-willed",
+    "options": ["Weak", "Stubborn", "Yielding", "Compliant", "Flexible"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 53,
+    "question": "Man herd cattle",
+    "options": ["Farmer", "Cowboy", "Fisherman", "Hunter", "Merchant"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 54,
+    "question": "Sliding gate or device to control the flow of water",
+    "options": ["Dam", "Sluice", "Bridge", "Wall", "Fence"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 55,
+    "question": "Make something ineffective",
+    "options": ["Strengthen", "Neutralize", "Enhance", "Boost", "Amplify"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 56,
+    "question": "Absorb all attention",
+    "options": ["Bore", "Engross", "Distract", "Repel", "Disinterest"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 57,
+    "question": "Unselfish, Selfless",
+    "options": ["Selfish", "Altruistic", "Greedy", "Egotistical", "Self-centered"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 58,
+    "question": "Selfish, Only caring about oneself",
+    "options": ["Altruistic", "Egocentric", "Generous", "Selfless", "Caring"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 59,
+    "question": "Purify",
+    "options": ["Contaminate", "Distil", "Pollute", "Dirty", "Taint"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 60,
+    "question": "Piece of writing/text not in its final form",
+    "options": ["Final", "Draft", "Published", "Complete", "Finished"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 61,
+    "question": "Permission, Agree",
+    "options": ["Refuse", "Consent", "Deny", "Reject", "Decline"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 62,
+    "question": "Minutes of meeting",
+    "options": ["Agenda", "Minuted", "Schedule", "Plan", "Outline"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 63,
+    "question": "Neat and trim",
+    "options": ["Messy", "Dapper", "Slovenly", "Unkempt", "Disheveled"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 64,
+    "question": "Focus of public attention",
+    "options": ["Shadow", "Limelight", "Darkness", "Obscurity", "Background"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 65,
+    "question": "Large piece of medal",
+    "options": ["Pin", "Medallion", "Badge", "Button", "Clip"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 66,
+    "question": "Hold something firmly in hands",
+    "options": ["Release", "Clasp", "Drop", "Let go", "Abandon"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 67,
+    "question": "Look closely or carefully",
+    "options": ["Glance", "Peer", "Ignore", "Overlook", "Miss"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 68,
+    "question": "Huge stock",
+    "options": ["Shortage", "Stockpile", "Lack", "Deficit", "Scarcity"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 69,
+    "question": "Huge gathering",
+    "options": ["Disperse", "Amass", "Scatter", "Separate", "Distribute"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 70,
+    "question": "Continuous slow noise in the background",
+    "options": ["Silence", "Mumble", "Quiet", "Stillness", "Hush"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 71,
+    "question": "Shorten (a piece of writing) without losing the sense",
+    "options": ["Expand", "Abridge", "Lengthen", "Extend", "Elaborate"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 72,
+    "question": "Clean or brighten the surface of (something) by rubbing it hard",
+    "options": ["Dirty", "Scour", "Stain", "Soil", "Tarnish"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 73,
+    "question": "Throw suddenly",
+    "options": ["Catch", "Eject", "Hold", "Keep", "Retain"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 74,
+    "question": "Officially make someone to leave",
+    "options": ["Welcome", "Expel", "Invite", "Accept", "Include"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 75,
+    "question": "Parasitic insect live on the skin of animal",
+    "options": ["Butterfly", "Louse", "Bee", "Dragonfly", "Ant"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 76,
+    "question": "Mention/Refer as evidence",
+    "options": ["Ignore", "Cite", "Omit", "Exclude", "Dismiss"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 77,
+    "question": "Thick shoe sole",
+    "options": ["Heel", "Clog", "Lace", "Tongue", "Toe"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 78,
+    "question": "To do something proud",
+    "options": ["Discredit", "Credit", "Shame", "Disgrace", "Dishonor"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 79,
+    "question": "Scribble, Draw",
+    "options": ["Erase", "Doodle", "Delete", "Remove", "Wipe"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 80,
+    "question": "Stay below boiling point",
+    "options": ["Boil", "Simmer", "Freeze", "Cool", "Chill"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 81,
+    "question": "Cover with gold",
+    "options": ["Strip", "Gild", "Remove", "Bare", "Expose"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 82,
+    "question": "Dumb show",
+    "options": ["Speech", "Mime", "Lecture", "Talk", "Dialogue"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 83,
+    "question": "Take over, Arrogate",
+    "options": ["Surrender", "Annex", "Release", "Give up", "Yield"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 84,
+    "question": "Type of Grape",
+    "options": ["Apple", "Muscat", "Orange", "Banana", "Pear"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 85,
+    "question": "Minor road",
+    "options": ["Highway", "By road", "Freeway", "Expressway", "Interstate"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 86,
+    "question": "Scary, Frightened",
+    "options": ["Comforting", "Creepy", "Reassuring", "Safe", "Pleasant"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 87,
+    "question": "Highly decorated",
+    "options": ["Plain", "Ornate", "Simple", "Bare", "Minimal"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 88,
+    "question": "Fairly large",
+    "options": ["Tiny", "Sizeable", "Small", "Minute", "Petite"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 89,
+    "question": "Small, Short, Little",
+    "options": ["Large", "Undersized", "Huge", "Giant", "Enormous"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 90,
+    "question": "Powerful desire",
+    "options": ["Indifference", "Crave", "Disinterest", "Apathy", "Aversion"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 91,
+    "question": "Shrinking movement of pain",
+    "options": ["Stretch", "Wince", "Expand", "Extend", "Relax"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 92,
+    "question": "Strong pole used for ship",
+    "options": ["Rope", "Spar", "Net", "Sail", "Anchor"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 93,
+    "question": "Glow without flame/reek",
+    "options": ["Extinguish", "Smoulder", "Douse", "Quench", "Cool"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 94,
+    "question": "Slap, Blow",
+    "options": ["Caress", "Smack", "Pat", "Stroke", "Touch"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 95,
+    "question": "Decline, Refuse",
+    "options": ["Accept", "Spurn", "Welcome", "Embrace", "Receive"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 96,
+    "question": "Feeling unworthy",
+    "options": ["Pride", "Disdain", "Confidence", "Respect", "Honor"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 97,
+    "question": "Assign responsibility",
+    "options": ["Withhold", "Entrust", "Deny", "Refuse", "Reject"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 98,
+    "question": "Person on special mission",
+    "options": ["Tourist", "Emissary", "Visitor", "Guest", "Traveler"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 99,
+    "question": "Representative",
+    "options": ["Opponent", "Delegate", "Enemy", "Adversary", "Rival"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 100,
+    "question": "Deliver, Dispatch, Send",
+    "options": ["Receive", "Consign", "Keep", "Hold", "Retain"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 101,
+    "question": "Apparent",
+    "options": ["Hidden", "Clear", "Obscure", "Concealed", "Secret"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 102,
+    "question": "Rebuke, Chastise",
+    "options": ["Praise", "Express disapproval", "Compliment", "Commend", "Applaud"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 103,
+    "question": "Commend",
+    "options": ["Criticize", "Praise", "Condemn", "Blame", "Rebuke"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 104,
+    "question": "Inconsequential",
+    "options": ["Important", "Not Important", "Significant", "Crucial", "Essential"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 105,
+    "question": "Paramount",
+    "options": ["Minor", "Most Important", "Trivial", "Insignificant", "Unimportant"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 106,
+    "question": "Demonic",
+    "options": ["Angelic", "Evil spirit", "Holy", "Divine", "Sacred"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 107,
+    "question": "Heinous",
+    "options": ["Good", "Wicked", "Kind", "Gentle", "Benevolent"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 108,
+    "question": "Tenacious",
+    "options": ["Weak", "Tight", "Loose", "Slack", "Flexible"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 109,
+    "question": "Pest",
+    "options": ["Helper", "Insect", "Friend", "Ally", "Supporter"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 110,
+    "question": "Fasten",
+    "options": ["Release", "Lock", "Open", "Unlock", "Free"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 111,
+    "question": "Vindicate",
+    "options": ["Condemn", "Prove to be right", "Accuse", "Blame", "Charge"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 112,
+    "question": "Sly, Crafty",
+    "options": ["Honest", "Cunning", "Sincere", "Genuine", "Truthful"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 113,
+    "question": "Strike",
+    "options": ["Miss", "Knock", "Avoid", "Dodge", "Evade"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 114,
+    "question": "Poke, Jab, Nudge",
+    "options": ["Smooth", "Tap with finger", "Caress", "Stroke", "Pat"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 115,
+    "question": "Earl",
+    "options": ["Commoner", "Gentle Nobleman", "Peasant", "Servant", "Worker"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 116,
+    "question": "Adjourn",
+    "options": ["Continue", "Break off", "Resume", "Proceed", "Persist"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 117,
+    "question": "Hurl",
+    "options": ["Catch", "Throw with force", "Hold", "Keep", "Retain"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 118,
+    "question": "Dangle",
+    "options": ["Fix", "Hang or swing loosely", "Secure", "Fasten", "Attach"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 119,
+    "question": "Postponed",
+    "options": ["Advanced", "Delay", "Expedited", "Hastened", "Rushed"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 120,
+    "question": "Drape",
+    "options": ["Remove", "Lose Clothing", "Wear", "Don", "Put on"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 121,
+    "question": "Hardback",
+    "options": ["Paperback", "Book with stiff cover", "Magazine", "Pamphlet", "Leaflet"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 122,
+    "question": "Glade",
+    "options": ["Forest", "Small area without trees", "Woods", "Jungle", "Thicket"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 123,
+    "question": "Commiserate",
+    "options": ["Celebrate", "Feel sympathy", "Rejoice", "Mock", "Ridicule"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 124,
+    "question": "Victimized",
+    "options": ["Protected", "Prey-on", "Defended", "Helped", "Supported"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 125,
+    "question": "Resentful",
+    "options": ["Pleased", "Displease", "Happy", "Satisfied", "Content"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 126,
+    "question": "Considerate",
+    "options": ["Careless", "Careful", "Reckless", "Thoughtless", "Negligent"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 127,
+    "question": "Bolt",
+    "options": ["Open", "Seal", "Unlock", "Release", "Unfasten"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 128,
+    "question": "Ethereal",
+    "options": ["Heavy", "Delicate", "Coarse", "Rough", "Crude"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 129,
+    "question": "Vile",
+    "options": ["Pleasant", "Extremely unpleasant", "Delightful", "Nice", "Enjoyable"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 130,
+    "question": "Tornado",
+    "options": ["Breeze", "Whirlwind", "Calm", "Stillness", "Peace"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 131,
+    "question": "Aviation",
+    "options": ["Sailing", "Flying aircraft", "Driving", "Walking", "Swimming"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 132,
+    "question": "Shun",
+    "options": ["Welcome", "Ignore", "Embrace", "Accept", "Include"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 133,
+    "question": "Choreographer",
+    "options": ["Student", "Person who teaches dance", "Musician", "Actor", "Painter"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 134,
+    "question": "Mirage",
+    "options": ["Reality", "Optical illusion", "Truth", "Fact", "Certainty"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 135,
+    "question": "Illusion",
+    "options": ["Reality", "Deceptive not clear", "Truth", "Clarity", "Certainty"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 136,
+    "question": "Cherish",
+    "options": ["Neglect", "Protect with care", "Abandon", "Ignore", "Discard"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 137,
+    "question": "Beloved",
+    "options": ["Hated", "Dearly loved", "Despised", "Detested", "Loathed"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 138,
+    "question": "Norm",
+    "options": ["Exception", "As usual", "Unusual", "Rare", "Abnormal"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 139,
+    "question": "Tantalise",
+    "options": ["Satisfy", "Tease someone", "Comfort", "Reassure", "Calm"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 140,
+    "question": "Desensitize",
+    "options": ["Sensitize", "Less sensitive", "Alert", "Arouse", "Awaken"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 141,
+    "question": "Dishevel",
+    "options": ["Tidy", "Untidy", "Organize", "Arrange", "Neaten"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 142,
+    "question": "Groom",
+    "options": ["Neglect", "Brushed", "Dishevel", "Mess", "Dirty"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 143,
+    "question": "Remodel",
+    "options": ["Maintain", "Changing structure", "Preserve", "Keep", "Sustain"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 144,
+    "question": "Tun",
+    "options": ["Bottle", "Large beer cask", "Glass", "Cup", "Can"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 145,
+    "question": "Relish",
+    "options": ["Dislike", "Great pleasure", "Hate", "Aversion", "Disgust"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 146,
+    "question": "Savour",
+    "options": ["Reject", "Enjoy with taste", "Dislike", "Refuse", "Decline"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 147,
+    "question": "Soothe",
+    "options": ["Agitate", "Gently calm", "Disturb", "Upset", "Irritate"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 148,
+    "question": "Blast",
+    "options": ["Calm", "Destructive wave", "Peace", "Stillness", "Quiet"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 149,
+    "question": "Redundant",
+    "options": ["Necessary", "No longer needed", "Essential", "Required", "Vital"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 150,
+    "question": "Superfluous",
+    "options": ["Necessary", "More than enough", "Insufficient", "Lacking", "Scarce"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 151,
+    "question": "Harmful",
+    "options": ["Beneficial", "Harmful evil look", "Helpful", "Good", "Positive"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 152,
+    "question": "Stubborn, Determined",
+    "options": ["Flexible", "Strong-willed", "Yielding", "Weak", "Compliant"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 153,
+    "question": "Cowboy",
+    "options": ["Farmer", "Man herd cattle", "Teacher", "Doctor", "Lawyer"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 154,
+    "question": "Sluice",
+    "options": ["Dam", "Sliding gate", "Bridge", "Wall", "Barrier"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 155,
+    "question": "Neutralize",
+    "options": ["Strengthen", "Make ineffective", "Enhance", "Boost", "Amplify"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 156,
+    "question": "Engross",
+    "options": ["Bore", "Absorb attention", "Distract", "Repel", "Alienate"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 157,
+    "question": "Altruistic",
+    "options": ["Selfish", "Unselfish", "Greedy", "Self-centered", "Egotistical"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 158,
+    "question": "Egocentric",
+    "options": ["Generous", "Selfish", "Altruistic", "Selfless", "Caring"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 159,
+    "question": "Distil",
+    "options": ["Contaminate", "Purify", "Pollute", "Dirty", "Taint"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 160,
+    "question": "Draft",
+    "options": ["Final", "Piece of writing not final", "Published", "Complete", "Finished"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 161,
+    "question": "Consent",
+    "options": ["Refuse", "Permission", "Deny", "Reject", "Decline"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 162,
+    "question": "Minuted",
+    "options": ["Unrecorded", "Minutes of meeting", "Forgotten", "Ignored", "Missed"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 163,
+    "question": "Dapper",
+    "options": ["Messy", "Neat and trim", "Slovenly", "Unkempt", "Shabby"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 164,
+    "question": "Limelight",
+    "options": ["Obscurity", "Focus of attention", "Shadow", "Background", "Darkness"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 165,
+    "question": "Medallion",
+    "options": ["Pin", "Large piece of medal", "Badge", "Button", "Ribbon"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 166,
+    "question": "Clasp, Grasp",
+    "options": ["Release", "Hold firmly", "Drop", "Let go", "Free"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 167,
+    "question": "Peer",
+    "options": ["Ignore", "Look closely", "Overlook", "Miss", "Glance"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 168,
+    "question": "Stockpile",
+    "options": ["Shortage", "Huge stock", "Lack", "Deficit", "Scarcity"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 169,
+    "question": "Amass",
+    "options": ["Scatter", "Huge gathering", "Disperse", "Separate", "Distribute"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 170,
+    "question": "Mumble",
+    "options": ["Shout", "Continuous slow noise", "Yell", "Scream", "Roar"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 171,
+    "question": "Abridge",
+    "options": ["Expand", "Shorten", "Lengthen", "Extend", "Prolong"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 172,
+    "question": "Scour, Scrub",
+    "options": ["Dirty", "Clean by rubbing", "Stain", "Soil", "Tarnish"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 173,
+    "question": "Eject",
+    "options": ["Keep", "Throw suddenly", "Hold", "Retain", "Maintain"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 174,
+    "question": "Expel",
+    "options": ["Welcome", "Make someone leave", "Invite", "Accept", "Include"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 175,
+    "question": "Louse",
+    "options": ["Butterfly", "Parasitic insect", "Bee", "Ladybug", "Dragonfly"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 176,
+    "question": "Cite, Quote",
+    "options": ["Ignore", "Mention as evidence", "Omit", "Exclude", "Dismiss"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 177,
+    "question": "Clog",
+    "options": ["Clear", "Thick shoe sole", "Open", "Unblock", "Free"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 178,
+    "question": "Credit",
+    "options": ["Blame", "Do something proud", "Shame", "Disgrace", "Dishonor"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 179,
+    "question": "Doodle",
+    "options": ["Erase", "Scribble", "Delete", "Remove", "Clean"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 180,
+    "question": "Simmer",
+    "options": ["Boil", "Stay below boiling", "Freeze", "Cool", "Chill"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 181,
+    "question": "Gild",
+    "options": ["Strip", "Cover with gold", "Remove", "Bare", "Expose"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 182,
+    "question": "Mime",
+    "options": ["Speak", "Dumb show", "Talk", "Lecture", "Discuss"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 183,
+    "question": "Annex",
+    "options": ["Release", "Take over", "Surrender", "Give up", "Yield"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 184,
+    "question": "Muscat",
+    "options": ["Apple", "Type of Grape", "Orange", "Cherry", "Banana"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 185,
+    "question": "By road",
+    "options": ["Highway", "Minor road", "Expressway", "Freeway", "Interstate"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 186,
+    "question": "Creepy",
+    "options": ["Comforting", "Scary", "Pleasant", "Reassuring", "Safe"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 187,
+    "question": "Ornate",
+    "options": ["Plain", "Highly decorated", "Simple", "Bare", "Minimal"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 188,
+    "question": "Sizeable",
+    "options": ["Tiny", "Fairly large", "Small", "Minute", "Little"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 189,
+    "question": "Undersized",
+    "options": ["Large", "Small", "Huge", "Giant", "Massive"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 190,
+    "question": "Crave",
+    "options": ["Reject", "Powerful desire", "Dislike", "Avoid", "Refuse"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 191,
+    "question": "Wince",
+    "options": ["Relax", "Shrinking movement", "Stretch", "Extend", "Expand"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 192,
+    "question": "Spar",
+    "options": ["Rope", "Strong pole", "Chain", "Wire", "Cable"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 193,
+    "question": "Smoulder",
+    "options": ["Extinguish", "Glow without flame", "Douse", "Quench", "Cool"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 194,
+    "question": "Smack",
+    "options": ["Caress", "Slap", "Pat", "Touch", "Stroke"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 195,
+    "question": "Spurn",
+    "options": ["Accept", "Decline", "Welcome", "Embrace", "Receive"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 196,
+    "question": "Disdain",
+    "options": ["Respect", "Feeling unworthy", "Admire", "Honor", "Esteem"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 197,
+    "question": "Entrust",
+    "options": ["Withhold", "Assign responsibility", "Deny", "Refuse", "Reject"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 198,
+    "question": "Emissary",
+    "options": ["Opponent", "Person on mission", "Enemy", "Adversary", "Rival"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 199,
+    "question": "Delegate",
+    "options": ["Opponent", "Representative", "Enemy", "Adversary", "Rival"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 200,
+    "question": "Consign",
+    "options": ["Receive", "Deliver", "Keep", "Hold", "Retain"],
+    "correctAnswer": 1
+  }
+]
+}
